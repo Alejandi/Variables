@@ -10,15 +10,34 @@ namespace AreaCirculoRectanguloCarreta
     {
         static void Main(string[] args)
         {
-        
-            Console.WriteLine("Ingresar el radio de la primera llanta");
-            var r = float.Parse(Console.ReadLine());
-            float areaLlanta1 = areaCirculo(r);
-            Console.WriteLine("Ingresar el radio de la segunda llanta");
-            var r1 = float.Parse(Console.ReadLine());
-            float areaLlanta2 = areaCirculo(r1);
+            float areaLlanta1 =0;
+            float areaLlanta2=0;
+            float r;
+            float r1;
+
+            Console.WriteLine("El radio de las llantas son iguales? S/N");
+            var llantasIguales = Console.ReadLine();
+            if (llantasIguales.ToUpper() == "S")
+            {
+
+                Console.WriteLine("Ingresar el radio de las llantas");
+                var rLlantas = float.Parse(Console.ReadLine());
+                r = rLlantas;
+                r1 = rLlantas;
+            }
+            else
+            {
+
+                Console.WriteLine("Ingresar el radio de la primera llanta");
+                r = float.Parse(Console.ReadLine());
+                Console.WriteLine("Ingresar el radio de la segunda llanta");
+                r1 = float.Parse(Console.ReadLine());
+               
+            }
 
 
+            areaLlanta1 = areaCirculo(r);
+            areaLlanta2 = areaCirculo(r1);
             Console.WriteLine("Ingresar el valor de la base");
             var b = float.Parse(Console.ReadLine());
             Console.WriteLine("Ingresar el valor de la altura");
