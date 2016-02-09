@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ley de Coulomb", "Ley de Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCirculoRectanguloCarreta", "AreaCirculoRectanguloCarreta\AreaCirculoRectanguloCarreta.csproj", "{DDD14418-9F89-4E63-B1D0-5657E1199601}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoYplaca", "PicoYplaca\PicoYplaca.csproj", "{6B3EDD67-F3F5-4684-9154-A06C517A1C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DDD14418-9F89-4E63-B1D0-5657E1199601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD14418-9F89-4E63-B1D0-5657E1199601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD14418-9F89-4E63-B1D0-5657E1199601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
