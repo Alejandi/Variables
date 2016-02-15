@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCirculoRectanguloCarret
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoYplaca", "PicoYplaca\PicoYplaca.csproj", "{6B3EDD67-F3F5-4684-9154-A06C517A1C54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximoDosNumeros", "MaximoDosNumeros\MaximoDosNumeros.csproj", "{1CE9D04F-EC0A-4AC7-8C22-AC5685898601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpresionImpares", "ImpresionImpares\ImpresionImpares.csproj", "{5B5FEA73-5A8E-4F91-ADA5-76A3733BE5EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3EDD67-F3F5-4684-9154-A06C517A1C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE9D04F-EC0A-4AC7-8C22-AC5685898601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE9D04F-EC0A-4AC7-8C22-AC5685898601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE9D04F-EC0A-4AC7-8C22-AC5685898601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE9D04F-EC0A-4AC7-8C22-AC5685898601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5FEA73-5A8E-4F91-ADA5-76A3733BE5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5FEA73-5A8E-4F91-ADA5-76A3733BE5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5FEA73-5A8E-4F91-ADA5-76A3733BE5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5FEA73-5A8E-4F91-ADA5-76A3733BE5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
